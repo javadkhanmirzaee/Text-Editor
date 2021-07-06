@@ -11,14 +11,14 @@
 <body>
     <div class="container">
         <div class="tools">
-            <input type="color">
-            <button class="size fas fa-plus"></button>
-            <button class="size fas fa-minus"></button>
-            <button class="bold fas fa-bold"></button>
-            <button class="italic fas fa-italic"></button>
-            <button class="left fas fa-align-left"></button>
-            <button class="center fas fa-align-center"></button>
-            <button class="right fas fa-align-right"></button>
+            <input type="color" onchange="color(this.value)">
+            <button class="size fas fa-plus" onclick="reduce()"></button>
+            <button class="size fas fa-minus" onclick="increase()"></button>
+            <button class="bold fas fa-bold" onclick="Bold()"></button>
+            <button class="italic fas fa-italic" onclick="Italic()"></button>
+            <button class="left fas fa-align-left" onclick="Left()"></button>
+            <button class="center fas fa-align-center" onclick="Center()"></button>
+            <button class="right fas fa-align-right" onclick="Right()"></button>
         </div>
         <textarea class="text" placeholder="شروع به نوشتن کنید. . ."></textarea>
     </div>
