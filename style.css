@@ -1,0 +1,65 @@
+@font-face {
+    font-family: vazir;
+    src: url(./Vazir-Light.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: vazir;
+    border: none;
+    outline: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#ffb3c1 ;
+}
+.text{
+    width: 300px;
+    height: 450px;
+    resize: none;
+    border-radius:  0 0 20px 20px;
+    background:#ff758f ;
+    color: #fff;
+    font-size: 18px;
+    direction: rtl;
+    padding: 20px;
+}
+.tools{
+    width: 300px;
+    height: 50px;
+    background:#ff758f ;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+button{
+    background:#ffb3c1;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    color: #892b64;
+    font-size: 18px;
+    margin: 20px 2px 5px 2px;
+    transition: 0.5s;
+}
+button:hover , input:hover{
+    background:#892b64 ;
+    color: #fff;
+    transform: scale(1.2);
+}
+input{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    padding: 3px;
+    background:#ffb3c1 ;
+    margin: 20px 2px 5px 2px;
+    transition: 0.5s;
+}
+.active{
+    background: #892b64 ;
+    color: #fff;
+}
